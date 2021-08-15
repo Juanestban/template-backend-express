@@ -1,0 +1,26 @@
+{
+  "name": "shorten-url",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "start": "node ./src/index.js",
+    "test": "echo hasn't a test for this momment"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "nodemon": "2.0.12",
+    "prettier": "2.3.2"
+  },
+  "dependencies": {
+    "cors": "2.8.5",
+    "dotenv": "10.0.0",
+    "express": "4.17.1",
+    "mongoose": "5.13.7",
+    "morgan": "1.10.0"
+  }
+}
